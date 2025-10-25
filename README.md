@@ -1,5 +1,5 @@
 
-# MPMC-SKILL-ASSESSMENT
+# MPMC-SKILL-ASSESSMENT-1
 
 ## Write an assembly language program in 8051 to calculate the sum of 5 numbers stored sequentially in memory and store the result in a another memory location.
 
