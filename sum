@@ -1,0 +1,33 @@
+                                                               Write an assembly language program in 8051 to calculate the sum of 5 numbers stored sequentially 
+                                                                              in memory and store the result in a another memory location
+
+
+AIM:
+   
+TO Write an assembly language program in 8051 to calculate the sum of 5 numbers stored sequentially in memory and store the result in a another memory location
+
+APPARATUS REQUIRED:
+
+Laptop with keil software
+
+PROGRAM:
+```
+ORG 0000H       
+MOV R0, #30H    
+MOV R1, #05    
+CLR A       
+LOOP: 
+    ADD A, @R0   
+    INC R0       
+    DJNZ R1, LOOP 
+MOV 35H, A     
+SJMP $    
+END         
+```
+OUTPUT:
+
+
+
+RESULT:
+
+The sum of five Numbers is Obtained 
